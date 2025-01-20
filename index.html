@@ -6,6 +6,42 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Language Breakdown</title>
+  <style>
+    .languages {
+      font-family: Arial, sans-serif;
+      width: 300px;
+    }
+    .bar {
+      display: flex;
+      height: 20px;
+      margin-top: 10px;
+      border-radius: 5px;
+      overflow: hidden;
+      border: 1px solid #ccc;
+    }
+    .ruby { background-color: #701516; flex: 57.9; }
+    .html { background-color: #e34c26; flex: 30.0; }
+    .scss { background-color: #c6538c; flex: 8.7; }
+    .javascript { background-color: #f1e05a; flex: 2.1; }
+    .dockerfile { background-color: #384d54; flex: 1.2; }
+    .shell { background-color: #89e051; flex: 0.1; }
+    .labels {
+      margin-top: 10px;
+    }
+    .labels div {
+      display: flex;
+      align-items: center;
+      margin-bottom: 5px;
+    }
+    .color-box {
+      width: 15px;
+      height: 15px;
+      margin-right: 8px;
+    }
+  </style>
 	</head>
 	<body class="is-preload">
 
@@ -54,6 +90,25 @@
 								  <a href="https://www.inverly.biz/" target="_blank" rel="noopener noreferrer">
 								    <img src="images/pic04.jpg" alt="Inverly App Screenshot" />
 								  </a>
+									<div class="languages">
+								    <h3>Languages</h3>
+								    <div class="bar">
+								      <div class="ruby"></div>
+								      <div class="html"></div>
+								      <div class="scss"></div>
+								      <div class="javascript"></div>
+								      <div class="dockerfile"></div>
+								      <div class="shell"></div>
+								    </div>
+								    <div class="labels">
+								      <div><span class="color-box ruby"></span>Ruby 57.9%</div>
+								      <div><span class="color-box html"></span>HTML 30.0%</div>
+								      <div><span class="color-box scss"></span>SCSS 8.7%</div>
+								      <div><span class="color-box javascript"></span>JavaScript 2.1%</div>
+								      <div><span class="color-box dockerfile"></span>Dockerfile 1.2%</div>
+								      <div><span class="color-box shell"></span>Shell 0.1%</div>
+								    </div>
+								  </div>
 								</span>
 								<p>A mockup of a travel website for Thailand featuring video footage from my recent travels in the country.</p>
 								<span class="image main">
